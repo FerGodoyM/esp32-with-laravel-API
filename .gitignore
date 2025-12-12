@@ -1,0 +1,26 @@
+# Laravel
+/laravel-api/vendor/
+/laravel-api/node_modules/
+/laravel-api/.env
+/laravel-api/.env.backup
+/laravel-api/.env.production
+/laravel-api/.phpunit.result.cache
+/laravel-api/storage/*.key
+/laravel-api/storage/logs/
+/laravel-api/storage/framework/cache/*
+/laravel-api/storage/framework/sessions/*
+/laravel-api/storage/framework/views/*
+/laravel-api/public/hot
+/laravel-api/public/storage
+/laravel-api/public/build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

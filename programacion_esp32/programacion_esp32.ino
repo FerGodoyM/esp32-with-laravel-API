@@ -7,10 +7,12 @@
 #include <DHT.h>
 
 // ----- CREDENCIALES Y SERVIDOR -----
-const char* ssid = "NOMBRE-WIFI";
-const char* password = "CONTRASEÑA-WIFI";
+const char* ssid = "TU_NOMBRE_WIFI";
+const char* password = "TU_CONTRASEÑA_WIFI";
 // ¡CAMBIA ESTO POR LA IP DE TU PC!
-const char* serverUrl = "http://192.168.1.XX:8000/api/esp32/sync"; 
+// USAR IP LOCAL DETECTADA (No usar localhost/127.0.0.1 en el ESP32)
+const char* serverUrl = "http://192.168.1.XXX:8000/api/esp32/sync"; 
+ 
 
 // ----- PINES CONFIGURADOS -----
 #define OLED_SDA 22 
